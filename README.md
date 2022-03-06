@@ -25,7 +25,7 @@
 12. -[x] **Train cellpose on cyto2 with high epoch,**
    13. -[x] **Do inference on cellpose.**
 14. -[ ] **increase the data using augmentation.**
-15. Use this [cellpose](https://github.com/Gladiator07/Sartorius-Neuronal-Cell-Segmentation-Kaggle) for doing the cellpose training. **Modified cellpose**.
+15. -[ ] Use this [cellpose](https://github.com/Gladiator07/Sartorius-Neuronal-Cell-Segmentation-Kaggle) for doing the cellpose training. **Modified cellpose**.
 
 ### ways to solve the problem:
 - change the threshold
