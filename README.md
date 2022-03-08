@@ -1,5 +1,12 @@
-# Sartorius-Kaggle-Competition
-[Sartorius - Cell Instance Segmentation](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/overview)
+# Sartorius Kaggle Experimentations
+- It was a cv + medical competition, where we given RLE data for different neuronal cell [shsy5y, cort and astro] segmentation. For details explanation of the data and cell types you can check out my NB [here](https://www.kaggle.com/soumya9977/residual-unet-with-attention-eda-tta-w-b). 
+- It was my first competition on kaggle. I previously did one melanoma classification in my 2nd year but it was very overwhelming for me. So I resigned early. But this time I was there will the last hour of the competition.
+- I was not able to get any medal in this competition, but luckily we were able to get into top 15% of the LB. It also helped me understand how to approach a kaggle problem. Except that another good thing that happened was one of my [teammate](https://github.com/r-matsuzaka) became Notebook and Discussion Expert.
+- I started 4 days late, at first I tried to understand the data, evaluation matric etc. I started with creating a [Unet based model with Attention and residual connection](https://www.kaggle.com/soumya9977/residual-unet-with-attention-eda-tta-w-b), but it did not really give any good results although the inference was looking very neat. I then moved on to Pretrained Unet model with different backbones [resnet,efficientnet-b2]. Still it was not good enough [0.15+]. 
+- When I was doing these experiments people on kaggle converged on a best performing single model, which was Mask RCNN. So I started experimenting with Mask RCNN. We did not have any clue about what is cross validation what are different pre and post processing techniques we can use etc. But one of my teammates [r-matsuzaka](https://github.com/r-matsuzaka) was researching on different methods to use. As per his advice I trained MS RCNN [which suppoed to outperform MRCNN] It was giving good results but not as good as the high performing MRCNN models[performances shared in the forums].
+- Another breakthrough came to the picture when [Slawek Biel](https://www.kaggle.com/slawekbiel) shared his NB on cellpose. It outperformed MRCNN. We started to shift in cellpose. after 4-5 days of grinding with cellpose we came to a conclusion that the provided github repo for cellpose does not work. 
+- As it was already near deadline I started doing Ensemble. I had no clue how to do that, but people already shared some NBs on ensemble based on NMS, NMW. I hacked some of the code to make it work for my models. At the end I used some of my models and some of high scoring public models to do the ensumble. We were able so submit only 52 submissions. It was because of some of the frameworks were new to us, we got distracted with other competitions, less experience etc.    
+
 
 
 ## Important Kaggle Discussions:
