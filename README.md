@@ -1,4 +1,8 @@
-# Sartorius Kaggle Experimentations
+<h1 align="center">Sartorius Kaggle Experimentations</h1>
+<p align="center">
+<img src="https://i.imgur.com/B9t4uIj.jpg">
+</p>
+
 - It was a cv + medical competition, where we given RLE data for different neuronal cell [shsy5y, cort and astro] segmentation. For details explanation of the data and cell types you can check out my NB [here](https://www.kaggle.com/soumya9977/residual-unet-with-attention-eda-tta-w-b). 
 - It was my first competition on kaggle. I previously did one melanoma classification in my 2nd year but it was very overwhelming for me. So I resigned early. But this time I was there will the last hour of the competition.
 - I was not able to get any medal in this competition, but luckily we were able to get into top 15% of the LB. It also helped me understand how to approach a kaggle problem. Except that another good thing that happened was one of my [teammate](https://github.com/r-matsuzaka) became Notebook and Discussion Expert.
@@ -7,7 +11,15 @@
 - Another breakthrough came to the picture when [Slawek Biel](https://www.kaggle.com/slawekbiel) shared his NB on cellpose. It outperformed MRCNN. We started to shift in cellpose. after 4-5 days of grinding with cellpose we came to a conclusion that the provided github repo for cellpose does not work. 
 - As it was already near deadline I started doing Ensemble. I had no clue how to do that, but people already shared some NBs on ensemble based on NMS, NMW. I hacked some of the code to make it work for my models. At the end I used some of my models and some of high scoring public models to do the ensumble. We were able so submit only 52 submissions. It was because of some of the frameworks were new to us, we got distracted with other competitions, less experience, very less experiment tracking etc.    
 
+## Inference image:
+<pre>
+<img src="https://i.imgur.com/oHPFaMh.png" width="900"> <img src="https://i.imgur.com/xVDB8SO.png" width="900"> <img src="https://i.imgur.com/DN8BvHv.png" width="900"> <img src="https://i.imgur.com/q51Aq6N.jpg" width="900">
+</pre>
 
+## Few plots:
+<pre>
+<img src="https://i.imgur.com/cffhTjc.png" width="900"> <img src="https://i.imgur.com/YPtbx7o.png" width="900"> <img src="https://i.imgur.com/CsMp6bH.png" width="900"> 
+</pre>
 
 ## Important Kaggle Discussions:
 1. [Instance Segmentation Models](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/discussion/278883 ) 
