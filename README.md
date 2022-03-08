@@ -14,18 +14,19 @@
 2. -[x] MRCNN using detectron2 / or using pytorch 
 3. -[ ] semantic segmentation using ResNet + Xgboost
 4. -[ ] Experiment with the weights of MS RCNN
-5. -[ ] Experimenting with previously downloaded model files
-6. -[ ] **Perform Ensemble with different models**
+5. -[x] Experimenting with previously downloaded model files
+6. -[x] **Perform Ensemble with different models**
 7. -[ ] Use Detectron2 for MS RCNN [might not be a good idea]
-8. -[ ] **Add TTA with MS RCNN**
+8. -[x] **Add TTA with MS RCNN**
 9. -[ ] **Use modified data for trianing.**
 10. -[ ] **train PointRend with Detectron2.**
 11. -[x] **Use MRCNN with ResNet101 Detectron2.**
    11. -[x] **Do inference on MRCNN Detectron2.**
 12. -[x] **Train cellpose on cyto2 with high epoch,**
    13. -[x] **Do inference on cellpose.**
-14. -[ ] **increase the data using augmentation.**
-15. -[ ] Use this [cellpose](https://github.com/Gladiator07/Sartorius-Neuronal-Cell-Segmentation-Kaggle) for doing the cellpose training. **Modified cellpose**.
+14. -[x] **increase the data using augmentation.**
+15. -[x] try cellpose
+16. -[ ] Use this [cellpose](https://github.com/Gladiator07/Sartorius-Neuronal-Cell-Segmentation-Kaggle) for doing the cellpose training. **Modified cellpose**.
 
 ### ways to solve the problem:
 - change the threshold
