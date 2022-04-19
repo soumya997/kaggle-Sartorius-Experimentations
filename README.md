@@ -75,7 +75,7 @@
 The table shows that the cv and lb is corelated +ve ly, coz if you see the threshold =True for both the epochs, then the LB is increasing than cv.
 
 ## Submissions:
-
+- ### [`Residual Unet with Attention+ EDA +TTA + W&B🧬`](https://www.kaggle.com/code/soumya9977/residual-unet-with-attention-eda-tta-w-b) `80+ Upvotes` 
 | NB                                                                                                                                                                   | private | public |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------ |
 | [Ensemble NMS - Detectron2 [Inference]](https://www.kaggle.com/soumya9977/ensemble-nms-detectron2-inference?scriptVersionId=83969029)                                | 0.312   | 0.305  |
